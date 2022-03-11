@@ -19,7 +19,7 @@ int main()
 	fd1 = open("file1.txt", O_CREAT | O_RDWR, 0666);            //Writing to file1.txt 
 	len = write(fd1 , write_buff, sizeof(write_buff));
 	printf("In File descriptor fd1 : %d\n", fd1);
-    printf("Checking the data is written in len or not: %d\n",len);
+    	printf("Checking the data is written in len or not: %d\n",len);
 	
 	
 	lseek(fd1, 0, SEEK_SET);		//set cursor to beginning
@@ -29,7 +29,7 @@ int main()
 	
 	read(fd1, read_buff, len);          //Reading character by character from the file1.txt
 	printf("\nContents in file are: %s",read_buff);
-    printf("\n");
+    	printf("\n");
 	close(fd1);
 
 	int length=0;
