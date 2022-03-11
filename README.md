@@ -1,2 +1,2 @@
-# Lunix-Assignmnet-1
+# Lunix-Assignment-1
 Lunix Internal first Assignment
