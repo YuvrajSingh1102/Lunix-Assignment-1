@@ -1,2 +1,0 @@
-This is Writing data to file.txt file 
-�This file contains data to perform concept of lseek and it's flags: SEEK_SET, SEEK_CUR, SEEK_END�
