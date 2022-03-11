@@ -1,5 +1,5 @@
 /*
-1.Write a program using file operations that demonstrates copying of data from input file and write
+Q1.Write a program using file operations that demonstrates copying of data from input file and write
 into output file, untill reaches end of file data.
 */
 
